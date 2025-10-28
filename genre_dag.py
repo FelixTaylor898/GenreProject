@@ -1,4 +1,3 @@
-# scripts/genre_dag.py
 """
 Airflow DAG for the Automated Book Genre Classification pipeline.
 """
