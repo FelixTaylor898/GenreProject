@@ -51,5 +51,4 @@ with DAG(
         python_callable=train_genre_model,
     )
 
-    # Define task dependencies (pipeline order)
     ingest_task >> clean_task >> train_task
